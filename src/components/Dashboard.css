@@ -1,0 +1,21 @@
+.dashboard-container {
+  padding: 20px;
+}
+
+.document-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.document-card h3 {
+  margin-top: 0;
+}
+
+.document-card button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+}

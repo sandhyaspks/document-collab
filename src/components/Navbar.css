@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2c3e50;
+  color: white;
+}
+
+.navbar-logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-link {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-logout-btn {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.navbar-logout-btn:hover {
+  background-color: #c0392b;
+}
